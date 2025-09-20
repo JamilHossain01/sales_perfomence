@@ -52,7 +52,7 @@ class ProfileView extends GetView<ProfileController> {
                        backgroundColor: AppColors.orangeColor,
                        radius: 55.r,
                        backgroundImage: _imageController.selectedImagePath.value.isEmpty
-                           ? const AssetImage(AppImages.profile)
+                           ? const AssetImage(AppImages.noData)
                            : FileImage(File(_imageController.selectedImagePath.value))
                        as ImageProvider,
                      ),

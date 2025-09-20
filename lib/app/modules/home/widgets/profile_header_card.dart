@@ -83,7 +83,7 @@ class ProfileHeaderCard extends StatelessWidget {
 
                     errorWidget: (context, url, error) => const CircleAvatar(
                       radius: 55,
-                      backgroundImage: AssetImage(AppImages.profile),
+                      backgroundImage: AssetImage(AppImages.noData),
                     ),
                   ),
                 ),
